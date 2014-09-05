@@ -9,5 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface HWViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *word1InputTextField;
+@property (strong, nonatomic) IBOutlet UITextField *word2InputTextField;
+@property (strong, nonatomic) IBOutlet UILabel *compoundWLabel;
+@property (strong, nonatomic) IBOutlet UITextField *fullWordInpuntTextField;
+@property (strong, nonatomic) IBOutlet UILabel *word1OutputLabel;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *word2OutputLabel;
+
+- (IBAction)combineButton:(id)sender;
+- (IBAction)splitButton:(id)sender;
 
 @end
